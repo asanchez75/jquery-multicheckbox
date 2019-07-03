@@ -9,6 +9,14 @@ Include script *after* the jQuery library:
 <script src="/path/to/jquery.multicheckbox.js"></script>
 ```
 
+## Usage
+
+```
+$('select').multicheckbox({
+  label_wrap: '<div class="checkbox"></div>'
+});
+```
+
 ## Options
 
 ### Default options
@@ -23,3 +31,10 @@ DEFAULTS = {
   selected_element: 'label'
 };
 ```
+
+
+
+### References
+
+* [https://www.jqueryscript.net/form/jQuery-Plugin-To-Convert-Select-Options-To-Checkboxes-multicheck.html](https://www.jqueryscript.net/form/jQuery-Plugin-To-Convert-Select-Options-To-Checkboxes-multicheck.html)
+
